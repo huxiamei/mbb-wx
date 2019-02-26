@@ -1,0 +1,5 @@
+/* page/test/pages/translateMarker2/translateMarker2.wxss */
+map{
+  width: 100%;
+  height: 100%;
+}

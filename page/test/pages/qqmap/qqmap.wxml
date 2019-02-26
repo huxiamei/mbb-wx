@@ -1,0 +1,3 @@
+<!--page/test/pages/qqmap/qqmap.wxml-->
+<text>page/test/pages/qqmap/qqmap.wxml</text>
+<map id='map' show-location="true"></map>

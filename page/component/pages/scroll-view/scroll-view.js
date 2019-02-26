@@ -4,12 +4,15 @@ Page({
     toView: 'green'
   },
   upper: function(e) {
+      console.log('upper')
     console.log(e)
   },
-  lower: function(e) {
+  lower: function (e) {
+      console.log('lower')
     console.log(e)
   },
-  scroll: function(e) {
+  scroll: function (e) {
+      console.log('scroll')
     console.log(e)
   },
   scrollToTop: function(e) {

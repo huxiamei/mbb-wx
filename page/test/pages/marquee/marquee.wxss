@@ -1,0 +1,47 @@
+/* page/test/pages/marquee/marquee.wxss */
+
+.container-box{
+
+width: 100%;
+
+height: 70rpx;
+
+background: #FFF1DC;
+
+}
+
+
+
+.marquee_box {
+
+position:relative;
+
+color:#F1513C;
+
+height: 70rpx;
+
+line-height:70rpx;  
+
+margin: 0 auto;
+
+width: 90%;
+
+font-size: 30rpx;    
+
+overflow:hidden;
+
+}
+
+.marquee_text {
+
+white-space: nowrap;
+
+position:absolute;
+
+top:0;    
+
+height:70rpx;
+
+line-height:70rpx;  
+
+}  

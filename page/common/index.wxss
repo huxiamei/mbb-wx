@@ -23,7 +23,7 @@
 .navigator-box {
   opacity: 0;
   position: relative;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   line-height: 1.41176471;
   font-size: 34rpx;
 
@@ -48,7 +48,7 @@
   right: 30rpx;
   height: 1px;
   border-top: 1rpx solid #D8D8D8;
-  color: #D8D8D8;
+  /* color: #D8D8D8; */
 }
 .navigator:first-child:before {
   display: none;
@@ -78,7 +78,7 @@
 
 .kind-list-item {
   margin: 20rpx 0;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   border-radius: 4rpx;
   overflow: hidden;
 }
@@ -108,5 +108,4 @@
 }
 .kind-list-item-bd-show {
   height: auto;
-  position:absolute;
 }

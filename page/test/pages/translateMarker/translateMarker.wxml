@@ -1,0 +1,2 @@
+<!--page/test/pages/translateMarker/translateMarker.wxml-->
+<map id='map' latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}"></map>

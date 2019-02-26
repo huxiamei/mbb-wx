@@ -11,13 +11,11 @@ Page({
     })
   },
   toast3Tap: function () {
-    wx.showToast({
-      title: "loading",
-      icon: "loading",
-      duration: 5000
-    })
+      wx.showLoading({
+          title: '正在加载',
+      })
   },
   hideToast: function () {
-    wx.hideToast()
+      wx.hideLoading()
   }
 })

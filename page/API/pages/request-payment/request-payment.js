@@ -21,7 +21,8 @@ Page({
             openid
           },
           method: 'POST',
-          success: function(res) {
+          success: function (res) {
+              debugger
             console.log('unified order success, response is:', res)
             var payargs = res.data.payargs
             wx.requestPayment({

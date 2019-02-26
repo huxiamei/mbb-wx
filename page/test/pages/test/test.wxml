@@ -1,0 +1,10 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+    <template is="head" data="{{title: 'test'}}" />
+    <view> Hello {{name}}! </view>
+    <button bindtap="changeName" type='primary' size='default'> Click me! </button>
+    <navigator url='../../index' open-type='navigateBack'>回去</navigator>
+    <template is="foot" />
+</view>

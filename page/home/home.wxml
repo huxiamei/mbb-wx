@@ -1,0 +1,3 @@
+<!--page/home.wxml-->
+<!-- 指向微信公众平台首页的web-view -->
+<web-view src="http://pts.linkcld.com/weixin/330681/index.html?from=singlemessage&isappinstalled=0"></web-view>

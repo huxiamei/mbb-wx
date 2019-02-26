@@ -11,7 +11,7 @@ Page({
     this.setData({animation: this.animation.export()})
   },
   translate: function () {
-    this.animation.translate(Math.random() * 100 - 50, Math.random() * 100 - 50).step()
+      this.animation.translateY(-100).step()
     this.setData({animation: this.animation.export()})
   },
   skew: function () {

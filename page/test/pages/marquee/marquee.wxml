@@ -1,0 +1,12 @@
+<!-- <view class="container_box"  wx:if="{{!bikeRiding.show}}"> -->
+
+    <view class="container-box">
+
+        <view class="marquee_box">
+            <view class="marquee_text" style="transform: translateX(-{{marqueeDistance}}px)">
+
+                {{text}}
+
+            </view>
+            </view>
+</view>  

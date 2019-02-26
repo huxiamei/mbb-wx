@@ -1,0 +1,18 @@
+<import src="../common/head.wxml" />
+<import src="../common/foot.wxml" />
+
+<view class="container">
+    <template is="head" data="{{title: 'index'}}" />
+    <button bindtap='goTest' size='default' type='primary'>go test.html</button>
+    <button bindtap='aaaa'>aaaa</button>
+    <button bindtap='lineDetails'>lineDetails</button>
+    <navigator url='./pages/amap/amap'>map</navigator>
+    <navigator url='./pages/qqmap/qqmap'>qqmap</navigator>
+    <navigator url='./pages/polyline/polyline'>polyline</navigator>
+    <navigator url='./pages/route/route'>route</navigator>
+    <navigator url='./pages/webroute/webroute'>webroute</navigator>
+    <navigator url='./pages/marquee/marquee'>marquee</navigator>
+    <navigator url='./pages/translateMarker/translateMarker'>map平移marker</navigator>
+    <navigator url='./pages/translateMarker2/translateMarker2'>map方向控制marker</navigator>
+    <template is="foot" />
+</view>

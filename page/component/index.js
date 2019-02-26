@@ -38,6 +38,7 @@ Page({
     ]
   },
   kindToggle: function (e) {
+      console.log(e)
     var id = e.currentTarget.id, list = this.data.list;
     for (var i = 0, len = list.length; i < len; ++i) {
       if (list[i].id == id) {
