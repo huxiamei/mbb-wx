@@ -8,6 +8,9 @@ Page({
         longitude: '',
         textData: {}
     },
+  regionChange(e) {
+    console.log(e.causedBy)
+  },
     makertap: function (e) {
         var id = e.markerId;
         var that = this;

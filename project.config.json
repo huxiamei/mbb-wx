@@ -10,8 +10,10 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.0",
 	"appid": "wx12898a2e61c3fc97",
-	"projectname": "meibaobao",
+	"projectname": "mini-app-demo",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -30,7 +32,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 7,
 			"list": [
 				{
 					"id": -1,
@@ -51,15 +53,37 @@
 					"query": ""
 				},
 				{
-					"id": -1,
+					"id": 3,
 					"name": "平移",
 					"pathName": "page/test/pages/translateMarker/translateMarker",
-					"query": ""
+					"query": "",
+					"scene": null
 				},
 				{
 					"id": -1,
 					"name": "转向",
-					"pathName": "page/test/pages/translateMarker2/translateMarker2"
+					"pathName": "page/test/pages/translateMarker2/translateMarker2",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "CC",
+					"pathName": "page/component/pages/checkbox/checkbox",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "phone",
+					"pathName": "page/test/pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "picker",
+					"pathName": "page/component/pages/picker/picker",
+					"scene": null
 				}
 			]
 		}

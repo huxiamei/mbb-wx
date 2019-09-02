@@ -14,5 +14,7 @@
     <navigator url='./pages/marquee/marquee'>marquee</navigator>
     <navigator url='./pages/translateMarker/translateMarker'>map平移marker</navigator>
     <navigator url='./pages/translateMarker2/translateMarker2'>map方向控制marker</navigator>
+    <navigator url='./pages/index/index'>index</navigator>
+    <navigator url='./pages/login/login'>login</navigator>
     <template is="foot" />
 </view>

@@ -32,20 +32,24 @@ Component({
         markers: this.data.markers
       })
 
-      this.moveMark();
+      setInterval(() => {
+        this.moveMark()
+      }, 1000)
     },
     moveMark() {
       this.setData({
         markIndex: this.data.markIndex + 1
       })
 
-      this.data.markers[0].rotate = 0 + (5 * this.data.markIndex)
+      let rotate = 0 + (5 * this.data.markIndex);
+      // this.data.markers[0].rotate = rotate.toString();
+      this.data.markers[0].rotate = rotate
       this.setData({
         markers: this.data.markers
       })
-      setTimeout(() => {
-        this.moveMark()
-      }, 200)
+      // setTimeout(() => {
+      //   this.moveMark()
+      // }, 200)
     }
   }
 })

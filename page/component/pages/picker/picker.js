@@ -1,6 +1,6 @@
 Page({
   data: {
-    array: ['中国', '美国', '巴西', '日本'],
+    array: [{ id: '11', name: '中国' }, { id: '11', name: '美国' }, { id: '11', name: '巴西' }, { id: '11', name:'日本'}],
     index: 0,
     date: '2016-09-01',
     time: '12:01'
