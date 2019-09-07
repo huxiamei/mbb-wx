@@ -1,4 +1,7 @@
 <!--page/test/pages/translateMarker/translateMarker.wxml-->
   <map id="map" longitude="{{121.407837}}" latitude="{{31.171854}}" markers="{{markers}}"  class='mapView' polyline='{{polyline}}' show-location='{{true}}' subkey="YDYBZ-QBSRX-M4X4R-Z6JWA-YECKH-GQFCY">
+  <cover-view class='share-btn'>
+    <button catchtap="shareMsg" open-type="share">确定行程，立即分享</button>
+  </cover-view>
   </map>
   <cover-view class='btn' bindtap='moveMarker'>开始测试</cover-view>

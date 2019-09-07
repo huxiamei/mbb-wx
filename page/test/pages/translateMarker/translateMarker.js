@@ -76,6 +76,12 @@ Page({
     this.mapCtx = wx.createMapContext('map', this)
   },
 
+  onShareAppMessage:function(res){
+    return {
+      title: '自定义转发标题',
+      path: '/page/test/pages/translateMarker/translateMarker'
+    }
+  },
   /**测试点坐标运动 */
   moveMarker: function () {
     if (!btnEnable) {
